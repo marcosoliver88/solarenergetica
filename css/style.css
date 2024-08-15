@@ -19,40 +19,43 @@ h2 {
     text-align: center;
 }
 
+.logo1{
+    float: left;
+}
 
 header {
     background-color: #eee;
-    color:blue;
-    display: inline;
-    
+    height: 100px;
 }
 
-.b1 {
-    border-radius: 5px;
-    color: ;
-    background-color: ;
-    padding: 10px;
-    font-size: 10px;
+nav>ul>li{
+    display: inline-block;
 }
 
-header>nav {
-    nav-right: auto;
-    float: right;
-    display: flex;
-    align-items: center;
+ul{
+    list-style: none;
 }
 
-#aj1 {
-    color:#eee;
-    margin: 0px;
-    font-size: 50px;
-    font-weight: 50px;
+
+
+.alinhar{
+    padding: 30px 70px 30px 30px;
+    display: inline-block;
+    margin: 10px;
+    color:#454998
 }
+
 
 main {
     background-color: #eee;
-    height: 0px;
+    height: 1450px;
+    width: 100%;
 
+
+}
+
+#altura1 {
+    height: 100px;
 }
 
 article {
@@ -62,32 +65,95 @@ article {
     text-align: center;
 }
 
+
 footer {
     background-color: #eee;
-    display: block;
     width: 100%;
     padding: 0px;
-    display: flex;
-    align-items: center;
+    float: inline-end;
+}
+
+.esq{
+    float: left;
+    padding: 40px 30px 50px 30px;
+}
+
+.dir{
+    float: right;
 }
 
 .cen1 {
     text-align: center;
+    
 }
 
 .marelo {
-    color:gold
+    color:#f9b461
+}
+
+.aj1{
+    color:#eee;
+    margin: 0px;
+    font-size: 50px;
+    font-weight: 200px;
 }
 
 .aj2{
-    background-color: #192166;
+    background-color: #595b70;
     width: 100%;
     color:#eee;
-    display: inline-block;
-}
+    float: inline-end;
+    
+} 
 
 .aj3{
-    background-color: #0a1155;
+    background-color: #1d3c4e;
     width: 100%;
     color:#eee;
+    height: 300px;
+    text-align: center;
+    padding: 60px 0px 0px 0px;
+}
+
+.b1 {
+    border-radius: 5px;
+    color:#eee;
+    background-color:#1e98e1 ;
+    padding: 10px;
+    font-size: 10px;
+}
+
+.b2{
+    border-radius: 5px;
+    color:#2a99da;
+    background-color:#eee ;
+    padding: 10px;
+    font-size: 10px;
+}
+
+.b3{
+    border-radius: 5px;
+    color:black;
+    background-color:#eee ;
+    padding: 10px;
+    font-size: 10px;
+}
+
+.cor{
+    color:#2a99da
+}
+
+h5{
+    text-align: center;
+}
+
+
+.not{
+    height: 500px;
+    padding: 50px 70px 0px 30px;
+}
+
+#conti>figure{
+    display:inline-block;
+    align-items: center;
 }

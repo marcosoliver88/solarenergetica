@@ -11,21 +11,23 @@
 <body>
     <header>
         <figure>
-            <img src="img/logo.png" alt="img1" width="250" height="75">
+            <img class="logo1" src="img/logo.png" alt="img1" width="300" height="100">
         </figure>
         <nav>
-            <p>Home</p>
-            <p>Quem Somos</p>
-            <p>Nossos Projetos</p>
-            <p>Energia Solar em Salvador</p>
-            <p>Parceiros</p>
-            <p>Simulador Solar</p>
-            <p>Contato</p>
+            <ul>
+                <li class="alinhar">Home</li>
+                <li class="alinhar">Quem Somos</li>
+                <li class="alinhar">Nossos Projetos</li>
+                <li class="alinhar">Energia Solar em Salvador</li>
+                <li class="alinhar">Parceiros</li>
+                <li class="alinhar">Simulador Solar</li>
+                <li class="alinhar">Contato</li>
+            </ul>
         </nav>
     </header>
     <main>
-        <section class="pimg"> 
-            <h1 id="aj1"><b>PRODUZA SUA</b>PRÓPRIA ENERGIA</h1>
+        <section class="pimg">
+            <h1 class="aj1"><b>PRODUZA SUA </b><br>PRÓPRIA ENERGIA</h1>
             <input class="b1" type="button" value="SOLICITE UM ORÇAMENTO">
         </section>
         <section>
@@ -83,16 +85,16 @@
         </section>
         <hr>
         <section class="cen1">
-            <input type="button" value="OUTROS PROJETOS">
+            <input class="b2" type="button" value="OUTROS PROJETOS">
         </section>
         <hr>
-        <section>
+        <section id="altura1">
             <article>
                 <h1>666</h1>
                 <p>Placas Instaladas</p>
             </article>
             <article>
-                <h1>226Kwp</h1>
+                <h1 class="cor">226Kwp</h1>
                 <p>Potência Instalada</p>
             </article>
             <article>
@@ -102,42 +104,47 @@
         </section>
         <section class="aj3">
             <h2>Comentário de Nossos Clientes</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus dolorem doloribus corporis
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.        Necessitatibus dolorem doloribus corporis
                 laborum, nostrum ab perspiciatis repellendus, rerum quibusdam placeat enim ducimus, temporibus
-                asperiores sit magnam perferendis ex adipisci magni. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic animi amet, aut voluptatum laudantium asperiores ea, quam, cumque facilis molestiae placeat? Laudantium placeat recusandae accusantium ducimus quos quam repellat veritatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero enim explicabo reprehenderit nam repellendus. Aperiam, blanditiis quam? Iure ut molestiae facilis voluptate nemo ab, repellendus consectetur asperiores, fugiat, optio nesciunt.</p>
+                asperiores sit magnam perferendis ex adipisci magni. Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Hic animi amet, aut voluptatum laudantium asperiores ea, quam, cumque facilis molestiae placeat?
+                Laudantium placeat recusandae accusantium ducimus quos quam repellat veritatis? Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Vero enim explicabo reprehenderit nam repellendus. Aperiam,
+                blanditiis quam? Iure ut molestiae facilis voluptate nemo ab, repellendus consectetur asperiores,
+                fugiat, optio nesciunt.</p><br>
             <h5>Cliente 1</h5>
         </section>
-        <section>
+        <section class="not">
             <h2>Últimas Notícias</h2>
             <article>
                 <figure>
                     <img src="img5/painel1.png" alt="img11">
                 </figure>
-                <h5>Energia - atenção para não perder o bonde</h5>
+                <h4>Energia - atenção para não perder o bonde</h4>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe, sit necessitatibus dolor odit, ab
                     voluptate voluptatem delectus quod, ducimus quos perspiciatis itaque eius consequuntur commodi
                     possimus ipsum maxime magnam eum!</p>
-                <input type="button" value="LER MAIS">
+                <input class="b3" type="button" value="LER MAIS">
             </article>
             <article>
                 <figure>
                     <img src="img5/painel2.png" alt="img12">
                 </figure>
-                <h5>Energia solar fotovotaica atinge marca histórica no Brasil</h5>
+                <h4>Energia solar fotovotaica atinge marca histórica no Brasil</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate repudiandae voluptatum suscipit
                     quae, nisi, soluta dignissimos cum aliquid fugit necessitatibus dicta ut veniam provident cumque
                     eaque aut illo aspernatur tenetur!</p>
-                <input type="button" value="LER MAIS">
+                <input class="b3" type="button" value="LER MAIS">
             </article>
             <article>
                 <figure>
                     <img src="img5/painel3.png" alt="img13">
                 </figure>
-                <h5>Geração solar fica mais competitiva e atrais interesse de empresas baianas</h5>
+                <h4>Geração solar fica mais competitiva e atrais interesse de empresas baianas</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laborum ducimus nobis, officia dolore
                     omnis sed. Distinctio, fugit veritatis aliquid quidem pariatur corporis a sunt, cumque
                     necessitatibus mollitia, aut modi!</p>
-                <input type="button" value="LER MAIS">
+                <input class="b3" type="button" value="LER MAIS">
             </article>
         </section>
         <section class="aj2">
@@ -158,20 +165,19 @@
                     <li>Contato</li>
                 </ul>
             </article>
-            <article>
+            <article id="conti">
                 <h2>Contatos</h2>
                 <ul>
                     <li>
-                        <figure><img src="img7/local.png" alt="img15"></figure>
-                        <p>Santissíma Trindade, Nº 50 Sussuarana, Salvador Ba Cep: 41213-148</p>
+                        <figure><img src="img7/local.png" alt="img15"> Santissíma Trindade, Nº 50 Sussuarana, Salvador Ba Cep: 41213-148</figure>
+                        
                     </li>
                     <li>
-                        <figure><img src="img7/tel.png" alt="img16"></figure>
-                        <p>(71) 98425-4379</p>
+                        <figure><img src="img7/tel.png" alt="img16">(71) 98425-4379</figure>
+                        
                     </li>
                     <li>
-                        <figure><img src="img7/email.png" alt="img17"></figure>
-                        <p>contato@solarengeletrica.com.br</p>
+                        <figure><img src="img7/email.png" alt="img17">contato@solarengeletrica.com.br</figure>
                     </li>
                 </ul>
                 <figure>
@@ -184,9 +190,9 @@
         </section>
     </main>
     <footer>
-        <p>&copy; 2020 Solar Energia. Todos os direitos reservados.</p>
+        <p class="esq">&copy; 2020 Solar Energia. Todos os direitos reservados.</p>
         <figure>
-            <img src="img6/lopak.png" alt="img20">
+            <img class="dir" src="img6/lopak.png" alt="img20">
         </figure>
     </footer>
 </body>
