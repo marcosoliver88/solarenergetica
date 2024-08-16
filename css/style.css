@@ -48,7 +48,7 @@ ul{
 
 main {
     background-color: #eee;
-    height: 1450px;
+    height: 1475px;
     width: 100%;
 
 
@@ -75,7 +75,7 @@ footer {
 
 .esq{
     float: left;
-    padding: 40px 30px 50px 30px;
+    padding: 50px 30px 50px 30px;
 }
 
 .dir{
@@ -140,7 +140,7 @@ footer {
 }
 
 .cor{
-    color:#2a99da
+    color:#2a99da;
 }
 
 h5{
@@ -156,4 +156,16 @@ h5{
 #conti>figure{
     display:inline-block;
     align-items: center;
+}
+
+.margens1{
+    padding: 30px 30px 30px 30px;
+}
+
+.alinesq{
+    text-align: left;
+}
+
+.fonte>h1{
+    font-size: 45px;
 }
