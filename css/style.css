@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: Arial, sans-serif;
@@ -12,14 +12,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 150px;
-    
+
 }
 
 h2 {
     text-align: center;
 }
 
-.logo1{
+.logo1 {
     float: left;
 }
 
@@ -28,26 +28,26 @@ header {
     height: 100px;
 }
 
-nav>ul>li{
+nav>ul>li {
     display: inline-block;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
 
 
-.alinhar{
+.alinhar {
     padding: 30px 70px 30px 30px;
     display: inline-block;
     margin: 10px;
-    color:#454998
+    color: #454998
 }
 
 
 main {
-    background-color: #eee;
+    /* background-color: #eee; */
     height: 1475px;
     width: 100%;
 
@@ -61,7 +61,7 @@ main {
 article {
     margin: 15px 0px;
     width: 33%;
-    display: inline-block;
+    /* display: inline-block; */
     text-align: center;
 }
 
@@ -73,43 +73,43 @@ footer {
     float: inline-end;
 }
 
-.esq{
+.esq {
     float: left;
     padding: 50px 30px 50px 30px;
 }
 
-.dir{
+.dir {
     float: right;
 }
 
 .cen1 {
     text-align: center;
-    
+
 }
 
 .marelo {
-    color:#f9b461
+    color: #f9b461
 }
 
-.aj1{
-    color:#eee;
+.aj1 {
+    color: #eee;
     margin: 0px;
     font-size: 50px;
     font-weight: 200px;
 }
 
-.aj2{
+.aj2 {
     background-color: #595b70;
     width: 100%;
-    color:#eee;
+    color: #eee;
     float: inline-end;
-    
-} 
 
-.aj3{
+}
+
+.aj3 {
     background-color: #1d3c4e;
     width: 100%;
-    color:#eee;
+    color: #eee;
     height: 300px;
     text-align: center;
     padding: 60px 0px 0px 0px;
@@ -117,55 +117,188 @@ footer {
 
 .b1 {
     border-radius: 5px;
-    color:#eee;
-    background-color:#1e98e1 ;
+    color: #eee;
+    background-color: #1e98e1;
     padding: 10px;
     font-size: 10px;
 }
 
-.b2{
+.b2 {
     border-radius: 5px;
-    color:#2a99da;
-    background-color:#eee ;
+    color: #2a99da;
+    background-color: #eee;
     padding: 10px;
     font-size: 10px;
 }
 
-.b3{
+.b3 {
     border-radius: 5px;
-    color:black;
-    background-color:#eee ;
+    color: black;
+    background-color: #eee;
     padding: 10px;
     font-size: 10px;
 }
 
-.cor{
-    color:#2a99da;
+.cor {
+    color: #2a99da;
 }
 
-h5{
+h5 {
     text-align: center;
 }
 
 
-.not{
+.not {
     height: 500px;
     padding: 50px 70px 0px 30px;
 }
 
-#conti>figure{
-    display:inline-block;
+#conti>figure {
+    display: inline-block;
     align-items: center;
 }
 
-.margens1{
+.margens1 {
     padding: 30px 30px 30px 30px;
 }
 
-.alinesq{
+.alinesq {
     text-align: left;
 }
 
-.fonte>h1{
+.fonte>h1 {
     font-size: 45px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {
+    .formulario {
+        display: block;
+    }
+
+    h1 {
+        font-size: 10px;
+    }
+
+    label {
+        font-size: 10px;
+    }
+} */
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 1199px) { */
+    /* body {} */
+
+    /* {
+        display: block;
+    } */
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (max-width: 768px) {
+    .alinhar {
+        display: block;
+    }
+
+    .aj3 {
+        display: block;
+        font-size: 15px;
+    }
+
+    .not {
+        display: block;
+    }
+
+    #conti {
+        display: block;
+    }
+
+    /* article {
+        display: block;
+    } */
+
+    /* h2 {
+        display: block;
+    }
+
+    section {
+        display: flex;
+    flex-wrap: wrap;    }
+
+    .margens1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}  */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+        .alinhar {
+            display: block;
+        }
+
+        .aj3 {
+            display: block;
+        }
+
+        .not {
+            display: block;
+        }
+
+        #conti {
+            display: block;
+        }
+
+        article {
+            display: block;
+        }
+
+        h2 {
+            display: block;
+        }
+    } */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {} */
+/* body {
+
+    } */
+
+    /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+        display: block;
+    }
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body {
+        display: block;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body {
+        display: inline-block;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body {
+        display: inline-block;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body {
+        display: inline-block;
+    }
 }
